@@ -1,0 +1,67 @@
+
+/* HEADER */
+#header{
+    width: 100%;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    transform: translate3d(5px, 28px, 0px); /* distancia entre menu e btn */
+    border-bottom: 5px solid red;
+    top: 10px;
+    margin-right: 100px;
+    will-change: transform;
+}
+.dropdown {
+    /* right: 300px; */
+    display: inline-block; /* deixa o LO do "tamanho do próprio texto" e não da largura inteira da tela*/
+    
+    list-style: none; /* rita a "bolinha" do LI*/
+}
+.nav-link:hover{
+    /* border-bottom: 5px solid red; */
+    color: white;
+}
+.nav-link  {
+    color: white;
+}
+/* PROPAGANDA */
+.propaganda {
+    text-align: center;
+}
+.image img{
+    width: 100%;
+    max-width: 30%;
+}
+/* MAIN */
+#content{
+    /* background: turquoise; */
+}
+.image img{
+    width: 100%;
+    max-width: 90%;
+}
+.item-1 h6, .item-2 h6, .item-3 h6 {
+    padding: 5%;
+    font-weight: 600;
+    /* margin:41px; */
+    text-align: left;
+    /* background: yellow; */
+}
+
+#content h2{
+    color: red;
+    font-weight: 600;
+    padding: 1rem;
+    /* text-align: left; */
+}
+
+
+
+
+/* ASIDE */
+#aside{
+    /* background: red; */
+}
+
