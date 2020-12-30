@@ -30,24 +30,25 @@
 .propaganda {
     text-align: center;
 }
-.image img{
+.propaganda .image img{
     width: 100%;
-    max-width: 30%;
+    max-width: 90%;
 }
 /* MAIN */
 #content{
     /* background: turquoise; */
 }
-.image img{
+main .image img{
     width: 100%;
     max-width: 90%;
+}
+main .image img:hover{
+    cursor: pointer;
 }
 .item-1 h6, .item-2 h6, .item-3 h6 {
     padding: 5%;
     font-weight: 600;
-    /* margin:41px; */
-    text-align: left;
-    /* background: yellow; */
+    text-align: center;
 }
 
 #content h2{
@@ -56,9 +57,6 @@
     padding: 1rem;
     /* text-align: left; */
 }
-
-
-
 
 /* ASIDE */
 #aside{
