@@ -4,6 +4,7 @@
     width: 100%;
 }
 
+
 .dropdown:hover .dropdown-menu {
     display: block;
     position: absolute;
@@ -59,12 +60,26 @@ main .image img:hover{
 }
 
 
+/* POSTAGENS */
 .postagens{
-    background: red;
+    /* background: red; */
 }
 
-
-
+.postagens .pais h6 a{
+    text-decoration: none;
+    /* color: rgb(255, 38, 0); */
+    font-weight: 100;
+}
+.postagens .data-horario p{
+    color:gray;
+    font-size: .2rem;
+}
+.postagens .manchete a p{
+    color: black;
+    font-size: 1.44rem;
+    width: 400px;
+    font-weight: 800;
+}
 
 
 
@@ -85,3 +100,7 @@ main .image img:hover{
 
 
 
+@media(max-width:768px){
+   
+    
+}
