@@ -101,6 +101,23 @@ main .image img:hover{
 
 
 @media(max-width:768px){
-   
-    
+    aside .image{
+        display:none;
+    }
+    .pais{
+        float: left;
+        margin-right: 10px;
+        padding-top: .2rem;
+        /* font-size: .2rem; */
+    }
+    .data-horario{
+        padding-top: .2rem;
+    }
+    .postagens .manchete a p{
+        width: 300px;
+
+    }
+
+
+
 }
