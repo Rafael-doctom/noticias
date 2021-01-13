@@ -8,20 +8,17 @@
 .dropdown:hover .dropdown-menu {
     display: block;
     position: absolute;
-    transform: translate3d(5px, 28px, 0px); /* distancia entre menu e btn */
+    transform: translate3d(5px, 28px, 0px); 
     border-bottom: 5px solid red;
     top: 10px;
     margin-right: 100px;
     will-change: transform;
 }
 .dropdown {
-    /* right: 300px; */
-    display: inline-block; /* deixa o LO do "tamanho do próprio texto" e não da largura inteira da tela*/
-    
-    list-style: none; /* rita a "bolinha" do LI*/
+    display: inline-block; 
+    list-style: none; 
 }
 .nav-link:hover{
-    /* border-bottom: 5px solid red; */
     color: white;
 }
 .nav-link  {
@@ -62,36 +59,23 @@ main .image img:hover{
 
 /* POSTAGENS */
 .postagens{
-    /* background: red; */
+    background: red;
+}
+.postagem-imagem  img{
+   width: 100%;
+    max-width: 95%;
+    padding-bottom: 1rem;
 }
 
-.postagens .pais h6 a{
-    text-decoration: none;
-    /* color: rgb(255, 38, 0); */
-    font-weight: 100;
-}
-.postagens .data-horario p{
+.postagens .data-horario {
     color:gray;
     font-size: .2rem;
 }
 .postagens .manchete a p{
     color: black;
     font-size: 1.44rem;
-    width: 400px;
     font-weight: 800;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ASIDE */
 #aside{
@@ -105,19 +89,21 @@ main .image img:hover{
         display:none;
     }
     .pais{
-        float: left;
-        margin-right: 10px;
-        padding-top: .2rem;
-        /* font-size: .2rem; */
+        display: none;
     }
     .data-horario{
-        padding-top: .2rem;
+        display: none;
     }
-    .postagens .manchete a p{
-        width: 300px;
+}
 
+@media(max-width:425px){
+    .manchete a p{
+        color: black;
+        font-size: 1.44rem;
+        font-weight: 800;
+        width: 60vw;
     }
-
-
-
+    .postagem-imagem  img{
+        height: 20vh;
+     }
 }
