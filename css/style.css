@@ -35,6 +35,8 @@
 /* MAIN */
 #content{
     /* background: turquoise; */
+    /* margin: 0; */
+    /* height: 90vh; */
 }
 main .image img{
     width: 100%;
@@ -50,7 +52,7 @@ main .image img:hover{
 }
 
 #content h2{
-    color: red;
+    /* color: red; */
     font-weight: 600;
     padding: 1rem;
     /* text-align: left; */
@@ -59,12 +61,15 @@ main .image img:hover{
 
 /* POSTAGENS */
 .postagens{
-    background: red;
+    /* background: red; */
+    /* padding:1rem; */
 }
 .postagem-imagem  img{
    width: 100%;
     max-width: 95%;
     padding-bottom: 1rem;
+    height: 35vh;
+    /* padding-left: 1rem; */
 }
 
 .postagens .data-horario {
@@ -77,9 +82,14 @@ main .image img:hover{
     font-weight: 800;
 }
 
+
+
+
+
 /* ASIDE */
 #aside{
-    /* background: red; */
+    /* background: blue; */
+    /* padding: 1rem; */
 }
 
 
@@ -104,6 +114,6 @@ main .image img:hover{
         width: 60vw;
     }
     .postagem-imagem  img{
-        height: 20vh;
+        height: 25vh;
      }
 }
