@@ -60,18 +60,12 @@ main .image img:hover{
 
 
 /* POSTAGENS */
-.postagens{
-    /* background: red; */
-    /* padding:1rem; */
-}
 .postagem-imagem  img{
    width: 100%;
     max-width: 95%;
     padding-bottom: 1rem;
     height: 35vh;
-    /* padding-left: 1rem; */
 }
-
 .postagens .data-horario {
     color:gray;
     font-size: .2rem;
@@ -81,15 +75,9 @@ main .image img:hover{
     font-size: 1.44rem;
     font-weight: 800;
 }
-
-
-
-
-
 /* ASIDE */
 #aside{
-    /* background: blue; */
-    /* padding: 1rem; */
+    
 }
 
 
