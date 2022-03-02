@@ -123,22 +123,25 @@ main .image img:hover{
         width: 70vw;
         margin-left: 1rem;
     }
-    .pais{
-        display: none;
+    .pais, .manchete{
+        /* display: none; */
+        margin:0 0.5rem;
     }
    
+    
     .postagem-imagem{
         align-items: center;
     }
 
      .postagem-imagem  img{
-        width: 100%;
-        max-width: 100%;
         height:20vh;
         background-size: cover;
+        width: 500px;
      }
 
-
+     .blockquoteText{
+         width: 40vw;
+     }
 
 
 
